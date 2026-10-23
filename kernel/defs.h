@@ -80,6 +80,7 @@ void            printkinit(void);
 
 // proc.c
 int             cpuid(void);
+int             countactiveprocs(void);
 void            kexit(int);
 int             kfork(void);
 int             growproc(int);
